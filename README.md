@@ -21,7 +21,7 @@ Download & install all dependencies, build, bundle & package the project
 npm install
 
 # running the application
-gulp default
+gulp serve
 
 # transpile all TypeScript & SCSS => JavaScript & CSS
 gulp build
