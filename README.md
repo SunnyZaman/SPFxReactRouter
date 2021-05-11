@@ -1,4 +1,4 @@
-# react-router-test
+# SPFx React Router
 
 This project uses [React](https://reactjs.org).
 
