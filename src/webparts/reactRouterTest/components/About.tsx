@@ -15,7 +15,7 @@ export default function About() {
     <div>
       <Prompt
         when={!!name}
-        message={location => `Are you sure you want to go to ${location.pathname}`}
+        message={_location => `Are you sure you want to go to ${_location.pathname}`}
         beforeUnload={true}
       />
       <div>
