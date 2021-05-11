@@ -11,6 +11,16 @@ export default function About() {
   useEffect(() => {
     console.log("React router location: ", location);
   }, [location]);
+
+  useEffect(() => {
+    if (!!name) {
+      window.onbeforeunload = () => true;
+    }
+    else {
+      window.onbeforeunload = undefined;
+    }
+  });
+
   return (
     <div>
       <Prompt
